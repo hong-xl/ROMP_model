@@ -185,7 +185,7 @@ def main():
     args.i = os.path.join(folder, '%s.mp4' % demo_name)
     args.o = 'logs/%s' % demo_name
     args.save_video = True
-    args.smpl_path = ''
+    # args.smpl_path = ''
 
     romp = ROMP(args)
     if args.mode == 'image':
